@@ -19,6 +19,7 @@ import MoreIcon from "@mui/icons-material/MoreVert";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import Divider from "@mui/material/Divider";
+import styles from "../../styles/Home.module.css";
 
 import { shoppingCartState } from "atoms";
 import { useRecoilState } from "recoil";
@@ -148,11 +149,8 @@ export default function PrimarySearchAppBar() {
 
   return (
     <>
-      <AppBar position="static">
+      <AppBar className={styles.header} position="static">
         <Toolbar>
-          <Link href="/">
-            <MenuBookIcon sx={{ display: { md: "flex" }, mr: 1 }} />
-          </Link>
           <Link href="/">
             <Typography
               variant="h6"
@@ -169,7 +167,7 @@ export default function PrimarySearchAppBar() {
                 cursor: "pointer",
               }}
             >
-              Bookstore
+              DelosNews
             </Typography>
           </Link>
 

@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.header {
+  background-color: #1e1e1e;
+}
+
 .footer {
   width: 100%;
   height: 100px;
