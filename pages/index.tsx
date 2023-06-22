@@ -119,8 +119,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Bookstore Home</title>
-        <meta name="description" content="Bookstore Home Page" />
+        <title>Delos News</title>
+        <meta name="description" content="Delos News Articles and Books" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
